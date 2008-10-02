@@ -3,7 +3,9 @@ ExceptionLogger
 
 The Exception Logger (forgive the horrible name) logs your Rails exceptions in the database and provides a funky web interface to manage them.
 
-First you need to generate the migration:
+First make sure you have RedCloth installed or install it via `gem install RedCloth`.
+
+Next you need to generate the migration:
 
   ./script/generate exception_migration
 
